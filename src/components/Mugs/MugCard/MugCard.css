@@ -1,0 +1,94 @@
+.mug__wrapper {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mug__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mug__stats-items,
+.mug__stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mug__stats {
+  justify-content: space-between;
+}
+
+.mug__stats-icon {
+  width: 1rem;
+  cursor: pointer;
+  margin-right: 0.1rem;
+}
+
+.mug__stats-item {
+  margin-top: 0.3rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mug__img {
+  background: #ebebeb;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in;
+}
+
+.mug__name {
+  margin-bottom: 0.5rem;
+}
+
+.mug__img-wrapper {
+  padding: 2rem;
+  background: var(--color-primary-white);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  height: 100%;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  border: 2px solid #fff;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+}
+
+.mug__img-wrapper:hover {
+  box-shadow: rgba(17, 12, 46, 0.05) 0px 25px 25px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.mug__img-wrapper.is--saved {
+  border: 2px solid #6dd397;
+}
+
+.mug__img-wrapper.has--label-selection {
+  border: 2px solid var(--color-primary-blue);
+}
+
+.mug__img-wrapper.is--hidden {
+  display: none;
+}
+
+.mug__img.is--saved {
+  opacity: 0.2;
+}
+
+.mug__img.has--label-selection {
+  opacity: 0;
+}
+
+.is--hidden {
+  display: none;
+}

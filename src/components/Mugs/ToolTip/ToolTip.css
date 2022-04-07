@@ -1,0 +1,11 @@
+.tooltip__wrapper {
+  position: absolute;
+  margin-top: 4rem;
+  margin-left: -6rem;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  background: var(--color-primary-blue);
+  color: var(--color-primary-white);
+  z-index: 99;
+  border-radius: 0.2rem;
+}

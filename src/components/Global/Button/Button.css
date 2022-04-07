@@ -1,0 +1,23 @@
+.btn {
+  background: var(--color-primary-blue);
+  color: var(--color-primary-white);
+  border: 2px solid var(--color-primary-blue);
+  font-family: "Inter Medium", sans-serif;
+  outline: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.btn:hover {
+  background: none;
+  color: var(--color-primary-blue);
+  border: 2px solid var(--color-primary-blue);
+}
+
+.btn.is--first {
+  margin-bottom: 0.5rem;
+}
