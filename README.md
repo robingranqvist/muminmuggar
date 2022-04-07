@@ -1,6 +1,6 @@
 # Muminmuggar
 
-This is a fun little React practice project that lets you get an approximate value on your collection of Muminmuggar, Finnish mugs with illustrations of those large snouted hippos. In Swedish. Amazing.
+This is a fun little React.js project that lets you get an approximate value on your collection of Muminmuggar, Finnish mugs with illustrations of those large snouted hippos. In Swedish. Amazing.
 
 Deployed on Netlify. Firestore is used as its database. Pricing data collected from all over. Inspired by a couple similar Muminmugg projects.
 
